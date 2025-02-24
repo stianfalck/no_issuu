@@ -1,4 +1,4 @@
-from PIL import Image  # install by > python3 -m pip install --upgrade Pillow  # ref. https://pillow.readthedocs.io/en/latest/installation.html#basic-installation
+from PIL import Image 
 import pyautogui as gui
 import time
 import keyboard
