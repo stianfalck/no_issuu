@@ -5,30 +5,6 @@ import keyboard
 import cv2
 import os
 
-"""
-# https://stackoverflow.com/questions/27327513/create-pdf-from-a-list-of-images
-
-# 'The best method to convert multiple images to PDF I have tried so far is to use PIL purely.
-# It's quite simple yet powerful:
-
-# Just set save_all to True and append_images to the list of images which you want to add.
-
-# You might encounter the AttributeError: 'JpegImageFile' object has no attribute 'encoderinfo'. 
-# The solution is here Error while saving multiple JPEGs as a multi-page PDF
-
-# Note:Install the newest PIL to make sure save_all argument is available for PDF.'
-
-images = [
-    Image.open("/Users/apple/Desktop/" + f)
-    for f in ["bbd.jpg", "bbd1.jpg", "bbd2.jpg"]
-]
-
-pdf_path = "/Users/apple/Desktop/bbd1.pdf"
-
-images[0].save(
-    pdf_path, "PDF", resolution=100.0, save_all=True, append_images=images[1:]
-)
-"""
 
 # mouse_positions = []
 #
